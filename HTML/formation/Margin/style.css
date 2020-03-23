@@ -1,0 +1,38 @@
+.div1 {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+}
+
+.div2 {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+    margin-top: -50px;
+}
+
+.div3 {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    margin-top: -200px;
+}
+
+.div4 {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    margin-top: -200px;
+    margin-left: 1750px;
+}
+
+.div5 {
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+    margin-top:50px;
+    margin-left: 1750px;
+}

@@ -1,0 +1,24 @@
+p a{
+    color: red;
+}
+h1,h2{
+
+    color: yellowgreen
+}
+
+.important{
+
+color: rgb(0, 255, 64);
+font-size: 40px;
+
+
+
+}
+.remarque{
+
+    font-size: 30px;
+    font-style: italic;
+    color: violet;
+   
+}
+

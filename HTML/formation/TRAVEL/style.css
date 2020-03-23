@@ -1,0 +1,227 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10 px;
+}
+
+.clear {
+  clear: both;
+}
+
+/*HEADER*/
+
+h1 {
+  font-family: crete found;
+  float: left;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: black;
+}
+
+.orange {
+  color: orangered;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin-right: 30px;
+}
+
+header {
+  background-color: white;
+  width: auto;
+  height: 130px;
+  padding-bottom: auto;
+  margin-top: -20px;
+}
+
+header h1 {
+  float: left;
+  margin-top: 30px;
+}
+
+ul {
+  position: relative;
+  top: 50px;
+  left: 500px;
+}
+
+.police {
+  font-family: "crete Round";
+  font-size: 30px;
+}
+
+#passerelle {
+  height: 580px;
+  background: url(../TRAVEL/pictures/main.jpg) center;
+}
+
+button {
+  background-color: orangered;
+  border-radius: 6px;
+  width: 120px;
+  height: 60px;
+  display: block;
+  margin: auto;
+  position: relative;
+  bottom: -30px;
+}
+
+.center {
+  text-align: center;
+  font-size: larger;
+}
+
+footer {
+  text-align: center;
+  height: 200px;
+  background-color: #444;
+  display: block;
+  margin: auto;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  width: 250px;
+  border: 1px solid black;
+  text-align: justify;
+  padding: 12px;
+  margin: 50px;
+
+  /* Marge extérieure de 50px */
+}
+
+#blanc {
+  color: white;
+  margin-left: 42%;
+  margin-top: 20px;
+}
+
+#copyright {
+  color: gray;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.soumettre {
+  background-color: #3498db;
+  color: white;
+}
+
+.placer {
+  position: relative;
+  top: 50px;
+  left: 500px;
+}
+
+#agrandir {
+  margin-left: 25em;
+  height: 6em;
+}
+
+.bouton1 {
+  display: block;
+  height: 50px;
+  width: 120px;
+  font-size: 20px;
+  margin: auto;
+  text-align: center;
+}
+.bouton2 {
+  margin-top: 30px;
+  margin: auto;
+  
+}
+.bouton3 {
+  margin-right: 30px;
+  margin: auto;
+
+  
+
+}
+
+.commun {
+  width: 920px;
+  margin: auto;
+  padding: 0px 10px;
+}
+#allicones {
+  margin: 80px;
+}
+
+#icon1 {
+  background: url(../TRAVEL/pictures/steps-icon-1.png);
+}
+#icon2 {
+  background: url(../TRAVEL/pictures/steps-icon-2.png);
+}
+#icon3 {
+  background: url(../TRAVEL/pictures/steps-icon-3.png);
+}
+header nav {
+  float: right;
+  margin-top: 50px;
+}
+header nav ul li {
+  display: inline-block;
+
+  margin-right: 20px;
+  float: right;
+}
+
+
+
+
+.parent{
+
+
+ float: right;
+ margin-left: auto;
+}
+.parent2{
+
+  float: left;
+}
+
+.div1{
+
+  display: inline-block;
+  overflow: hidden;
+ 
+}
+.div2{
+
+  display: inline-block;
+}
+
+.test1{
+
+  display: inline-block;
+}
+.test2{
+
+  display: inline-block;
+}
+.test3{
+  display: inline-flex;
+}

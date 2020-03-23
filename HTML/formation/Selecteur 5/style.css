@@ -1,0 +1,27 @@
+p.remarque {
+    font-style: italic;
+}
+
+.remarque {
+    font-style: oblique;
+}
+
+.important {
+    font-weight: bold;
+}
+
+.remarque.important {
+    color: lightcoral;
+    font-size: 30px;
+}
+
+.remarque {}
+
+#nota {
+    color: #FF1493;
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
