@@ -1,0 +1,76 @@
+
+
+<!--exercice eau minerale-->
+<eau_minerale>
+
+    <!--premiere reference-->
+    <reference>
+        <code_barre>3274080005003 </code_barre>
+        <nom>cristaline</nom>
+        <provenance>Saint Cyr la source</provenance>
+        <contenance unite="cl">150</contenance>
+
+        <ph>7.45</ph>
+        <ions unite="g/l">
+            <positifs>
+                <calcium>5.71</calcium>
+                <magnesium>5.5</magnesium>
+
+            </positifs>
+            <negatifs>
+                <chlorures>20</chlorures>
+                <nitrates>1</nitrates>
+
+            </negatifs>
+
+        </ions>
+    </reference>
+
+    <!--deuxieme reference-->
+    <reference>
+        <code_barre>3268840001008</code_barre>
+        <nom>cristaline</nom>F
+        <provenance>Aurele</provenance>
+        <contenance unite="cl">50</contenance>
+
+        <ph>7.4</ph>
+        <ions unite="g/l">
+            <positifs>
+                <calcium>98</calcium>
+                <magnesium>4</magnesium>
+
+
+            </positifs>
+
+            <negatifs>
+            <chlorures>3.6</chlorures>
+            <nitrates>2</nitrates>
+
+            </negatifs>
+        </ions>
+    </reference>
+    <!--troisieme reference-->
+    <reference>
+        <code_barre>3057640117008</code_barre>
+        <nom>volvic</nom>
+        <provenance>volvic</provenance>
+        <contenance unite="cl">50</contenance>
+
+        <ph>7</ph>
+        <ions>
+            <positifs>
+                <calcium>11.5</calcium>
+                <magnesium>8</magnesium>
+
+            </positifs>
+            <negatifs>
+                <chlorures>13.5</chlorures>
+                <nitrates>6.3</nitrates>
+
+            </negatifs>
+        </ions>
+
+
+    </reference>
+
+</eau_minerale>

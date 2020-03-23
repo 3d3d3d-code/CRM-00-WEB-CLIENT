@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- creation d'un premier repertoire -->
+
+<repertoire>
+  <!-- premiee personne-->
+  <personne>
+
+    <profil taille="moyen">
+      <nom>Robert</nom>
+      <prenom>badinter</prenom>
+      <adresse type="rue"> le village </adresse>
+      <telephone ligne="portable"> 06 96 96 96 96</telephone>
+      </mail>
+      rbad@gmail.com>
+      </mail>
+    </profil>
+    <!--deuxieme personne-->
+  </personne>
+
+  <personne>
+    <profil taille="petit">
+      <nom>platoon</nom>
+      <prenom>John </prenom>
+      <adresse type="chemin"> la ville </adresse>
+      <telephone ligne="fixe">08 67 52 31 69</telephone>
+      <mail>=pjhone@gmail.com</mail>
+    </profil>
+    <!-- 3eme personne-->
+    <personne>
+      <profile taille="grand">
+        <nom>potter
+
+</nom>
+        <prenom>harry
+
+</prenom>
+        <adresse type="rue">
+  la montagne
+</adresse>
+        <telephone type="gps"> 655 698 456</telephone>
+      </profile>
+    </personne>
+</repertoire>

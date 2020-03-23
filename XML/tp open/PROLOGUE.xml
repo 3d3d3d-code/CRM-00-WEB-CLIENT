@@ -1,0 +1,6 @@
+<!--creation d'un premier repertoire-->
+<? xml version = "1.0" encoding="UTF-8" standalone="yes" ?>
+<repertoire> 
+<personne>Robert</personne>
+<personne>John</personne>
+</repertoire>
