@@ -1,0 +1,31 @@
+ul {
+    list-style-type: none;
+    display: inline-block;
+  
+ 
+}
+
+
+a:hover {
+    background-color: #0000ff;
+    color:white;
+    font-size: 50px;
+    text-decoration:underline;
+    text-rendering: geometricPrecision;
+   
+    visibility: hidden; 
+
+    
+}
+
+a {
+    text-decoration: rebeccapurple;
+   font-size:   50px; 
+    
+}
+p{
+
+display: inline-block;
+
+
+}

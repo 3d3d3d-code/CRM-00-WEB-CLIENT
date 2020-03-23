@@ -1,0 +1,102 @@
+        * {
+            margin: auto;
+            padding: auto;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        #grey {
+            margin-left: auto;
+            padding-top: 40px;
+            font-size: 20px;
+            background-color: rgb(98, 94, 94);
+        }
+        
+        .aligner {
+            display: inline-block;
+            margin-left: 50%;
+        }
+        
+        ul {
+            display: block;
+        }
+        
+        button {
+            background-color: orange;
+            border-radius: 5px;
+            margin-top: 10px;
+            width: 600px;
+            height: 50px;
+        }
+        
+        a:hover {
+            color: rgb(0, 117, 128);
+            cursor: pointer;
+            text-decoration: none;
+        }
+        
+        header nav {
+            display: inline;
+        }
+        
+        div {
+            display: inline-block;
+        }
+        
+        li {
+            list-style-type: none;
+        }
+        
+        .div2,
+        .div3,
+        .div4 {
+            display: block;
+            margin-bottom: 2%;
+            border: 1px solid;
+            padding: 50px;
+            margin-left: 50px;
+            margin-right: 30px;
+        }
+        
+        .div1 {
+            margin-bottom: 2%;
+            border: 1px solid;
+            margin-left: 50px;
+            margin-right: 30px;
+            padding-bottom: -50px;
+        }
+        
+        a {
+            display: block;
+        }
+        
+        .icones {
+            display: block;
+        }
+        
+        img {
+            width: 50px;
+            height: 50px;
+        }
+        
+        #espace img {
+            margin: 50px;
+        }
+        
+        .crm {
+            padding-bottom: 20px;
+            margin-left: 300%;
+        }
+        
+        .pro {
+            width: 100px;
+            height: 100px;
+        }
+        
+        .formation {
+            width: 100px;
+            height: 100px;
+        }
+        
+        .police {
+            color: white;
+        }

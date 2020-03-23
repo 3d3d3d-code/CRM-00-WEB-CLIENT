@@ -1,0 +1,48 @@
+h3{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+}
+p:hover{
+
+    color:  #3386ff; 
+    text-decoration-color:  black;
+}
+button{
+
+    color: aqua;
+}
+.cadre{
+
+
+    border: 2px solid black ;
+    margin-right: 70%;
+    margin-top: auto;
+}
+.bordure{
+    border: 2px solid black ;
+    margin-right: 70%;
+    margin-top: auto;
+   padding-bottom: 10%;   
+}
+
+button {
+    background-color: #3386ff;
+    border-radius: 4px;
+    width: 110px;
+    height: 40px;
+    margin-left: 10px;
+    text-decoration: white;
+    font-size: medium;
+
+
+
+
+
+
+
+    
+
+
+
+
+ 

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Exercice Systeme solaire-->
+<SystemeSolaire>
+<!--Astre 1-->
+<Caracteristiqyues>
+<nom>Mercure</nom>
+<Diametre unite="km">4 878</Diametre>
+<Circonference unite="km">15 324,69</Circonference>
+<DistanceMoyenneAvecSoleil unite="millions de km">57,8</DistanceMoyenneAvecSoleil>
+<DistanceMoyenneAvecTerre unite="millions de km">91,8</DistanceMoyenneAvecTerre>
+<Satellites nombreDe="">0</Satellites> 
+<TemperatureMoyenne unite="°C">167</TemperatureMoyenne>
+<Masse unite="10<sup>24</sup>kg">0,33</Masse>
+<PeriodeRevolution unite="an">0,24</PeriodeRevolution>
+<RotationSurSonAxe>58j 15h 38min</RotationSurSonAxe>
+<VitesseAutourSoleil unite="km/s">47,78</VitesseAutourSoleil>
+<AttractionGravitationnelle unite="N/kg">3,78</AttractionGravitationnelle>
+<MasseVolumique unite="kg/dm3">5,42</MasseVolumique>
+<Volume unite="10<sup>11</sup>km<sup>3</sup>"<sup>11</sup>"km"  km3>0,6077487</Volume>
+
+<!--Astre 2-->
+<Caracteristiqyues>
+<nom>Venus</nom>
+<Diametre unite="km">12 104</Diametre>
+<Circonference unite="km">38 019,55</Circonference>
+<DistanceMoyenneAvecSoleil unite="millions de km">108,2</DistanceMoyenneAvecSoleil>
+<DistanceMoyenneAvecTerre unite="millions de km">41,4</DistanceMoyenneAvecTerre>
+<Satellites nombreDe="">0</Satellites> 
+<TemperatureMoyenne unite="°C">465</TemperatureMoyenne>
+<Masse unite="10<sup>24</sup>kg">4,87</Masse>
+<PeriodeRevolution unite="an">0,615</PeriodeRevolution>
+<RotationSurSonAxe>243j</RotationSurSonAxe>
+<VitesseAutourSoleil unite="km/s">35,02</VitesseAutourSoleil>
+<AttractionGravitationnelle unite="N/kg">8,6</AttractionGravitationnelle>
+<MasseVolumique unite="kg/dm3">5,24</MasseVolumique>
+<Volume unite= "10<sup>11</sup>km<sup>3</sup>">9,2804721</Volume>
+
+<!--Astre 3-->
+<Caracteristiqyues>
+<nom>Terre</nom>
+<Diametre unite="km">12 756</Diametre>
+<Circonference unite="km">40 024</Circonference>
+<DistanceMoyenneAvecSoleil unite="millions de km">149,6</DistanceMoyenneAvecSoleil>
+<Satellites nombreDe="">1</Satellites> 
+<TemperatureMoyenne unite="°C">15</TemperatureMoyenne>
+<Masse unite="10<sup>24</sup>kg">5,9736</Masse>
+<PeriodeRevolution unite="an">1</PeriodeRevolution>
+<RotationSurSonAxe>23h 56min 4s</RotationSurSonAxe>
+<VitesseAutourSoleil unite="km/s">29,78</VitesseAutourSoleil>
+<AttractionGravitationnelle unite="N/kg">9,81</AttractionGravitationnelle>
+<MasseVolumique unite="kg/dm3">5,45</MasseVolumique>
+<Volume unite= "10<sup>11</sup>km<sup>3</sup>">10,8321</Volume>*
+3.10
+<!--Astre 4-->
+<Caracteristiqyues>
+<nom>Mars</nom>
+<Diametre unite="km">6 794</Diametre>
+<Circonference unite="km">21 318,84</Circonference>
+<DistanceMoyenneAvecSoleil unite="millions de km">227,9</DistanceMoyenneAvecSoleil>
+<DistanceMoyenneAvecTerre unite="millions de km">77,9</DistanceMoyenneAvecTerre>
+<Satellites nombreDe="">2</Satellites> 
+<TemperatureMoyenne unite="°C">-65</TemperatureMoyenne>
+<Masse unite="10<sup>24</sup>kg">0,642</Masse>
+<PeriodeRevolution unite="an">1,88</PeriodeRevolution>
+<RotationSurSonAxe>24h 37min 23s</RotationSurSonAxe>
+<VitesseAutourSoleil unite="km/s">24,11</VitesseAutourSoleil>
+<AttractionGravitationnelle unite="N/kg">3,72</AttractionGravitationnelle>
+<MasseVolumique unite="kg/dm3">3,93</MasseVolumique>
+<Volume unite= "10<sup>11</sup>km<sup>3</sup>">1,6362143</Volume>
+
+<!--Astre 5-->
+<Caracteristiqyues>
+<nom>Jupiter</nom>
+<Diametre unite="km">142 984</Diametre>
+<Circonference unite="km">449 197,48</Circonference>
+<DistanceMoyenneAvecSoleil unite="millions de km">778,6</DistanceMoyenneAvecSoleil>
+<DistanceMoyenneAvecTerre unite="millions de km">628,7</DistanceMoyenneAvecTerre>
+<Satellites nombreDe="">63</Satellites> 
+<TemperatureMoyenne unite="°C">-54</TemperatureMoyenne>
+<Masse unite="10<sup>24</sup>kg">1 899</Masse>
+<PeriodeRevolution unite="an">11,86</PeriodeRevolution>
+<RotationSurSonAxe>9h 50min</RotationSurSonAxe>
+<VitesseAutourSoleil unite="km/s">13,07</VitesseAutourSoleil>
+<AttractionGravitationnelle unite="N/kg">24,892</AttractionGravitationnelle>
+<MasseVolumique unite="kg/dm3">1,32</MasseVolumique>
+<Volume unite= "10<sup>11</sup>km<sup>3</sup>">15 305,97</Volume>
+
+<!--Astre 6-->
+<Caracteristiqyues>
+<nom>Saturne</nom>
+<Diametre unite="km">120 536</Diametre>
+<Circonference unite="km">378 675,01</Circonference>
+<DistanceMoyenneAvecSoleil unite="millions de km">1 433,50</DistanceMoyenneAvecSoleil>
+<DistanceMoyenneAvecTerre unite="millions de km">1 280,40</DistanceMoyenneAvecTerre>
+<Satellites nombreDe="">47</Satellites> 
+<TemperatureMoyenne unite="°C">-150</TemperatureMoyenne>
+<Masse unite="10<sup>24</sup>kg">568</Masse>
+<PeriodeRevolution unite="an">29,46</PeriodeRevolution>
+<RotationSurSonAxe>11,5h</RotationSurSonAxe>
+<VitesseAutourSoleil unite="km/s">9,66</VitesseAutourSoleil>
+<AttractionGravitationnelle unite="N/kg">10,584</AttractionGravitationnelle>
+<MasseVolumique unite="kg/dm3">0,68</MasseVolumique>
+<Volume unite= "10<sup>11</sup>km<sup>3</sup>">9 169,57</Volume>
+
+<!--Astre 7-->
+<Caracteristiqyues>
+<nom>Uranus</nom>
+<Diametre unite="km">51 118</Diametre>
+<Circonference unite="km">160 591,93</Circonference>
+<DistanceMoyenneAvecSoleil unite="millions de km">2 872,50</DistanceMoyenneAvecSoleil>
+<DistanceMoyenneAvecTerre unite="millions de km">2 725,40</DistanceMoyenneAvecTerre>
+<Satellites nombreDe="">27</Satellites> 
+<TemperatureMoyenne unite="°C">-210</TemperatureMoyenne>
+<Masse unite="10<sup>24</sup>kg">86,8</Masse>
+<PeriodeRevolution unite="an">84</PeriodeRevolution>
+<RotationSurSonAxe>17h 24min</RotationSurSonAxe>
+<VitesseAutourSoleil unite="km/s">6,81</VitesseAutourSoleil>
+<AttractionGravitationnelle unite="N/kg">8,624</AttractionGravitationnelle>
+<MasseVolumique unite="kg/dm3">1,27</MasseVolumique>
+<Volume unite= "10<sup>11</sup>km<sup>3</sup>">699,39123</Volume>
+<!--Astre 8-->
+<Caracteristiqyues>
+<nom>Neptune</nom>
+<Diametre unite="km">49 528</Diametre>
+<Circonference unite="km">155 596,80</Circonference>
+<DistanceMoyenneAvecSoleil unite="millions de km">4 495,10</DistanceMoyenneAvecSoleil>
+<DistanceMoyenneAvecTerre unite="millions de km">4 346,90</DistanceMoyenneAvecTerre>
+<Satellites nombreDe="">13</Satellites> 
+<TemperatureMoyenne unite="°C">-220</TemperatureMoyenne>
+<Masse unite="10<sup>24</sup>kg">102</Masse>
+<PeriodeRevolution unite="an">164,79</PeriodeRevolution>
+<RotationSurSonAxe>16h 3min</RotationSurSonAxe>
+<VitesseAutourSoleil unite="km/s">5,43</VitesseAutourSoleil>
+<AttractionGravitationnelle unite="N/kg">11,27</AttractionGravitationnelle>
+<MasseVolumique unite="kg/dm3">1,63</MasseVolumique>
+<Volume unite= "10<sup>11</sup>km<sup>3</sup>">636,137 4964</Volume>
