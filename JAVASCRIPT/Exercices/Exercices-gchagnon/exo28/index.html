@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Ecriture d' une fonction simple</title>
+
+    <h1>Ecriture d'une fonction simple</h1>
+  
+
+</head>
+
+<body>
+
+    <p>Cliquez sur le bouton pour lancer la fonction :<button onclick="surface()">Lancer la fonction</button></p>
+    <script>
+         
+        function surface(){
+            var longueur;
+            var largeur;
+
+
+            longueur = parsInt(prompt("Entrez la longueur :"));
+            largeur = parsInt(prompt("Entrez la largeur :"));
+
+
+            alert("la surface est de " + largeur * longueur + "cm2");
+            alert("le perimetre est de " + 2 * (largeur + longueur) + "cm2");
+        }                                                          
+    </script>
+
+</body>
+
+</html>

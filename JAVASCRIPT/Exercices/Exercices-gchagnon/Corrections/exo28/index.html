@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8" >
+	<title>Écriture d'une fonction simple</title>
+  <script>
+
+function surfaceRectangle(){
+	var largeur; var longueur;
+
+ /* Il faut ici transformer les chaînes saisies en nombre, faute de quoi l'opérateur + agit comme une concaténation et non une somme.
+ Comme on s'attend à ce que ces variables désignent en permanence des nombres, il est plus efficace de convertir le plus tôt possible la chaîne en nombre*/
+	largeur=parseFloat(prompt("Quelle est la largeur du rectangle ?"));
+	longueur=parseFloat(prompt("Quelle est la longueur du rectangle ?"));
+
+	alert("La surface vaut "+longueur*largeur);
+	alert("Le périmètre vaut "+2*(longueur+largeur));
+}
+
+  </script>
+</head>
+<body>
+
+<h1>Écriture d'une fonction simple</h1>
+
+<p>Cliquez sur le bouton pour lancer la fonction&nbsp;: <button onclick="surfaceRectangle()">Lancer la fonction</button></p>
+
+</body>
+</html>
