@@ -28,9 +28,18 @@ function OK() {
 
     for(var i = 0; i < Coordonnees.length; i++) {
         //verifier dans la liste si le nom et l email correspondent
-        if( Coordonnees.name==true  && Coordonnees.email==true )
-		if(name == Coordonnees[i].name && email == Coordonnees[i].email) {
-            console.log("votre nom est :"+ name +"et votre email est :" + email)
+		if( Coordonnees[].name==true  && Coordonnees[].email==true )
+	{
+document.getElementById('message').innerText='message serveur';
+document.getElementById('inscription').submit()
+
+		
+	}
+		
 			// arreter la fonction si tout est correct
-		return
-		}
+			}	else{
+
+				console.log('nom ou email incorrect')
+			}
+	}
+
