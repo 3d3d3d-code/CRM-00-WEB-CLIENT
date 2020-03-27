@@ -88,13 +88,13 @@
     
     
                
-            <form id="inscription">
-                <label for="name">Nom</label>
-                <input type="text" id="name" placeholder="Votre nom">
-                <label for="email">Email</label>
-                <input type="text" id="email" placeholder="Votre email">
-                <input type="submit" value="OK" class="button-3">
-            </form>
+                <form name="contact-form" action="#">
+                    <label for="name">Nom</label><sup><span style="color : red;">*</span></sup>
+                    <input type="text" id="name" name="name" placeholder="Votre nom" onchange="checkInputName(this.value)">
+                    <label for="email">Email</label><sup><span style="color : red">*</span></sup>
+                    <input type="text" id="email" name="email" placeholder="Votre email" onchange="checkInputEmail(this.value)">
+                    <input type="submit" value="OK" id="button-ok" class="button-3"  disabled="disabled" onclick="validForm()">
+                </form>
 
          
         </div>

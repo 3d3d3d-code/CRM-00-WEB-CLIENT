@@ -1,26 +1,41 @@
-//pointer vers le id de form et verifier l evenement submit
+function checkInputName(valName) {
+    var email = document.getElementById("email").value;
+    var nom = valName;
 
-document.getElementById("inscription").addEventListener("submit"), function (e) {
-    e.preventDefault();
-    //variable erreur 
-    let erreur;
-    //creeer une variable inputs afin de parcourir tous les input du html par la suite 
-    let inputs = document.getElementById('inscription').getElementsByTagName('input');
-
-    //verifier la condition
-    for (let i = 0; i > inputs.length; i++); {
-        console.log(inputs[i].value);
-        if (!inputs[i].value) {
-            erreur = 'renseigner tous les champs!';
-        } else {
-
-            alert("formulaire envoye");
-
-        }
-    }
-
-
-
+    checkValidForm(nom, email);
 }
 
-//////// ca ne fonctionne pas 😭
+function checkInputEmail(valName) {
+    var email = valName;
+    var nom = document.getElementById("name").value;
+
+    checkValidForm(nom, email);
+}
+
+function validForm() {
+    var email = document.getElementById("email").value;
+    if (email.indexOf('@') != -1) {
+        alert("Votre demande a bien été prise en compte, vous serez contacté très prochainement");
+        document.getElementById("contact-us").innerHTML = "Déjà contacté";
+        document.getElementById("contact-us").className = "form-done";
+        document.getElementById("name").disabled = true;
+        document.getElementById("email").disabled = true;
+        document.getElementById("button-ok").disabled = true;
+    } else {
+        alert("Le format de l'adresse mail n'est pas correct");
+    }
+    resetForm();
+}
+
+function resetForm() {
+    document.getElementById("email").value = "";
+    document.getElementById("name").value = "";
+}
+
+function checkValidForm(nom, email) {
+    if (nom != "" && email != "") {
+        document.getElementById("button-ok").disabled = false;
+    } else {
+        document.getElementById("button-ok").disabled = true;
+    }
+}
